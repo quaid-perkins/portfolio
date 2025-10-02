@@ -10,6 +10,7 @@ const Header: Component = () => {
 	return (
 		<header class="inline-flex justify-center sticky top-0 w-full py-4 bg-white/80 border-b border-zinc-200/80 backdrop-blur-sm">
 			<nav class="inline-flex justify-between items-center w-full max-w-[84rem] px-4 sm:px-8">
+				{/* nav title */}
 				<Button as={A} href="/" variant="link" size="slim">
 					{"<Quaid />"}
 				</Button>
