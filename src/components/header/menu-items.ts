@@ -1,4 +1,4 @@
-const menuItems: (MenuItem | SubMenuItem)[] = [
+const menuItems: MenuItem[] = [
 	{
 		label: "Home",
 		href: "/",
@@ -9,6 +9,7 @@ const menuItems: (MenuItem | SubMenuItem)[] = [
 	},
 	{
 		label: "Education",
+		href: "",
 		subMenuItems: [
 			{
 				label: "Unit 1",
