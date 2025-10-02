@@ -2,6 +2,7 @@ import { MetaProvider, Title } from "@solidjs/meta";
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
+import { Header } from "./components/header";
 import "./app.css";
 
 const App = () => {
@@ -9,8 +10,10 @@ const App = () => {
 		<Router
 			root={(props) => (
 				<MetaProvider>
-					{/* fallback meta title (should be added in routes) */}
+					{/* fallback meta title, an override should be added in route files */}
 					<Title>Portfolio</Title>
+					{/* header displayed on every page */}
+					<Header />
 					{/* mount route's child elements onto the page */}
 					<Suspense>{props.children}</Suspense>
 				</MetaProvider>

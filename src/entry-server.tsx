@@ -11,9 +11,11 @@ export default createHandler(() => (
 					<meta name="viewport" content="width=device-width, initial-scale=1" />
 					{assets}
 				</head>
-				<body class="font-rubik">
+				<body>
 					{/* element hook for the website */}
-					<div id="app">{children}</div>
+					<div id="app" class="flex flex-col font-rubik bg-zinc-50">
+						{children}
+					</div>
 					{/* apply scripts for solidjs */}
 					{scripts}
 				</body>
