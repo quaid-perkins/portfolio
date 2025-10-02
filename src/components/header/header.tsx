@@ -32,6 +32,9 @@ const Header: Component = () => {
 													</Button>
 												</Match>
 												{/* TODO: menu dropdown */}
+												<Match when={item.subMenuItems}>
+													<></>
+												</Match>
 											</Switch>
 										);
 									}}
