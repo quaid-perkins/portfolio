@@ -1,0 +1,10 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* tailwindcss for styling in 'JSX / TSX' */
+@import "tailwindcss";
+
+/* tailwindcss config */
+@theme {
+	--font-rubik: "Rubik", sans-serif;
+}
