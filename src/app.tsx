@@ -3,6 +3,7 @@ import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import { Header } from "./components/header";
+import Footer from "~/components/footer";
 import "./app.css";
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
 					<Header />
 					{/* mount route's child elements onto the page */}
 					<Suspense>{props.children}</Suspense>
+					{/* footer displayed on every page */}
+					<Footer />
 				</MetaProvider>
 			)}
 		>
