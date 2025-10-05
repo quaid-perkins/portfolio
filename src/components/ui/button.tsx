@@ -49,7 +49,7 @@ export type ButtonProps<T extends ValidComponent = "button"> = ComponentProps<
 	* https://shadcn-solid-62l63mm2f-hngngns-projects.vercel.app/docs/components/button
 */
 export const Button = <T extends ValidComponent = "button">(
-  props: ButtonProps<T>
+  props: ButtonProps<T>,
 ) => {
   const [, rest] = splitProps(props as ButtonProps, [
     "class",

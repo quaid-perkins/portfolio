@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Title>Home</Title>
-      <main class="w-[80vw] h-screen mx-auto my-8 rounded-md bg-red-300"></main>
+      <main class="mx-auto my-8 h-screen w-[80vw] rounded-md bg-red-300"></main>
     </>
   );
 };

@@ -8,8 +8,8 @@ const Header: Component = () => {
   const breakpoints = useSizeBreakpoints();
 
   return (
-    <header class="inline-flex justify-center sticky top-0 w-full py-4 bg-white/80 border-b border-zinc-200/80 backdrop-blur-sm">
-      <nav class="inline-flex justify-between items-center w-full max-w-[84rem] px-4 sm:px-8">
+    <header class="sticky top-0 inline-flex w-full justify-center border-b border-zinc-200/80 bg-white/80 py-4 backdrop-blur-sm">
+      <nav class="inline-flex w-full max-w-[84rem] items-center justify-between px-4 sm:px-8">
         {/* nav title */}
         <Button as={A} href="/" variant="link" size="slim">
           {"<Quaid />"}

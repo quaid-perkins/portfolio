@@ -13,7 +13,7 @@ export default createHandler(() => (
         </head>
         <body>
           {/* element hook for the website */}
-          <div id="app" class="flex flex-col min-h-dvh font-rubik bg-zinc-50">
+          <div id="app" class="font-rubik flex min-h-dvh flex-col bg-zinc-50">
             {children}
           </div>
           {/* apply scripts for solidjs */}

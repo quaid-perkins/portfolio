@@ -2,7 +2,7 @@ import { Component } from "solid-js";
 
 const Footer: Component = () => {
   return (
-    <footer class="inline-flex justify-center text-center w-full p-4 mt-auto text-sm">
+    <footer class="mt-auto inline-flex w-full justify-center p-4 text-center text-sm">
       Copyright © 2025 Quaid Perkins. All Rights Reserved
     </footer>
   );
