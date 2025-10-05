@@ -3,6 +3,7 @@ import { Button } from "~/components/ui/button";
 import { A } from "@solidjs/router";
 import useSizeBreakpoints from "~/hooks/useSizeBreakpoints";
 import menuItems from "./menu-items";
+import NavigationMenuDesktop from "../navigation-menu-desktop";
 
 const Header: Component = () => {
   const breakpoints = useSizeBreakpoints();
@@ -19,28 +20,7 @@ const Header: Component = () => {
         <Switch>
           {/* desktop menu */}
           <Match when={breakpoints.sm}>
-            <div class="inline-flex gap-4">
-              <div class="inline-flex gap-2">
-                <For each={menuItems}>
-                  {(item) => {
-                    return (
-                      <Switch>
-                        {/* menu link */}
-                        <Match when={!item.subMenuItems}>
-                          <Button as={A} href={item.href} variant="ghost">
-                            {item.label}
-                          </Button>
-                        </Match>
-                        {/* TODO: menu dropdown */}
-                        <Match when={item.subMenuItems}>
-                          <></>
-                        </Match>
-                      </Switch>
-                    );
-                  }}
-                </For>
-              </div>
-            </div>
+            <NavigationMenuDesktop items={menuItems} />
           </Match>
           {/* mobile menu */}
           <Match when={!breakpoints.sm}>
