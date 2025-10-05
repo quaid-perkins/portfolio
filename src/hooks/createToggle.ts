@@ -3,15 +3,15 @@ import { createSignal } from "solid-js";
 
 // boolean toggle wrapper for `createSignal`
 const createToggle = (
-	initial: boolean = false
+  initial: boolean = false
 ): [Accessor<boolean>, () => void] => {
-	const [value, setValue] = createSignal<boolean>(initial);
+  const [value, setValue] = createSignal<boolean>(initial);
 
-	const toggle = () => {
-		setValue((prev) => !prev);
-	};
+  const toggle = () => {
+    setValue((prev) => !prev);
+  };
 
-	return [value, toggle];
+  return [value, toggle];
 };
 
 export default createToggle;
