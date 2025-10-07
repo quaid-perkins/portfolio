@@ -12,22 +12,11 @@ const NavigationMenuDesktop: Component<Props> = (props) => {
     <div class="inline-flex gap-4">
       <div class="inline-flex">
         <For each={props.items}>
-          {(item) => {
-            return (
-              <Switch>
-                {/* menu link */}
-                <Match when={!item.subMenuItems}>
-                  <Button as={A} href={item.href} variant="ghost">
-                    {item.label}
-                  </Button>
-                </Match>
-                {/* TODO: menu dropdown */}
-                <Match when={item.subMenuItems}>
-                  <></>
-                </Match>
-              </Switch>
-            );
-          }}
+          {(item) => (
+            <Button as={A} href={item.href} variant="ghost">
+              {item.label}
+            </Button>
+          )}
         </For>
       </div>
       <Button variant="ghost" size="slim">

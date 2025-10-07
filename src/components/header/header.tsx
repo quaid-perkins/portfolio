@@ -4,6 +4,7 @@ import { A } from "@solidjs/router";
 import useSizeBreakpoints from "~/hooks/useSizeBreakpoints";
 import menuItems from "./menu-items";
 import NavigationMenuDesktop from "../navigation-menu-desktop";
+import NavigationMenuMobile from "../navigation-menu-mobile";
 
 const Header: Component = () => {
   const breakpoints = useSizeBreakpoints();
@@ -24,7 +25,7 @@ const Header: Component = () => {
           </Match>
           {/* mobile menu */}
           <Match when={!breakpoints.sm}>
-            <></>
+            <NavigationMenuMobile items={menuItems} />
           </Match>
         </Switch>
       </nav>

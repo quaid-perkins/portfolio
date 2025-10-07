@@ -8,6 +8,7 @@
 		"version": "vinxi version"
 	},
 	"dependencies": {
+		"@corvu/drawer": "^0.2.4",
 		"@kobalte/core": "^0.13.11",
 		"@solid-primitives/destructure": "^0.2.2",
 		"@solid-primitives/media": "^2.3.3",
