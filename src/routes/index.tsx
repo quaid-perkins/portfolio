@@ -11,10 +11,7 @@ const Home = () => {
         <div class="flex flex-col">
           <span class="inline-flex items-center gap-1 pl-1">
             <MapPin size={20} />
-            <span>
-              <span class="text-[#6DA34D]">Wales</span>
-              {", UK"}
-            </span>
+            <span>Wales, UK</span>
           </span>
           <div class="my-2 text-7xl font-bold sm:text-8xl">
             Quaid

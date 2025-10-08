@@ -17,8 +17,7 @@ const NotFound = () => {
             <span class="text-purple-900">404</span>
           </div>
           <span class="pl-1 text-xl sm:text-2xl">
-            This page doesn't seem to exist.
-            <span class="text-[#6DA34D]">{" D:"}</span>
+            This page doesn't seem to exist. D:
           </span>
         </div>
         <div class="flex justify-end gap-2 px-1">
