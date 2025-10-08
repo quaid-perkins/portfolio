@@ -10,7 +10,7 @@ const NotFound = () => {
     <>
       <Title>Not Found</Title>
       <HttpStatusCode code={404} />
-      <main class="mx-auto my-8 flex w-full flex-col gap-8 max-sm:px-1 sm:w-[50%] sm:justify-between">
+      <main class="mx-auto my-8 flex w-full max-w-6xl flex-col gap-8 max-sm:px-1 sm:w-[50%] sm:justify-between">
         <div class="flex flex-col">
           <div class="my-2 text-7xl font-bold sm:text-8xl">
             {"Error: "}
