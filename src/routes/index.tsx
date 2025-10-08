@@ -13,7 +13,7 @@ const Home = () => {
             <MapPin size={20} />
             <span>Wales, UK</span>
           </span>
-          <div class="my-2 text-7xl font-bold sm:text-8xl">
+          <div class="text-[14vw] font-bold sm:my-2 sm:text-8xl">
             Quaid
             <span class="text-purple-900">{" Perkins"}</span>
           </div>
