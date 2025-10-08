@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Title>Home</Title>
-      <main class="mx-auto my-8 flex w-full max-w-6xl flex-col gap-8 max-sm:px-1 sm:w-[50%] sm:justify-between">
+      <main class="mx-auto my-8 flex w-full max-w-6xl flex-col gap-8 max-sm:px-1 sm:w-[50%]">
         <div class="flex flex-col">
           <span class="inline-flex items-center gap-1 pl-1">
             <MapPin size={20} />
