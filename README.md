@@ -8,7 +8,6 @@
 - TailwindCSS
 - shadcn-solid
 - Lucide Icons
-- AnimeJS
 
 ## Run Locally
 
