@@ -1,4 +1,4 @@
-import { Component, For, Match, Switch } from "solid-js";
+import { Component, For } from "solid-js";
 import { Button } from "./ui/button";
 import { A } from "@solidjs/router";
 import { Menu, Moon, X } from "lucide-solid";

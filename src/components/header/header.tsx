@@ -1,4 +1,4 @@
-import { Component, For, Match, Switch } from "solid-js";
+import { Component, Match, Switch } from "solid-js";
 import { Button } from "~/components/ui/button";
 import { A } from "@solidjs/router";
 import useSizeBreakpoints from "~/hooks/useSizeBreakpoints";
