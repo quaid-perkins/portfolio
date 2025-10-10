@@ -26,13 +26,15 @@ const Contact: Component = () => {
   return (
     <>
       <Title>Contact Me</Title>
-      <main class="mx-auto my-8 flex w-full gap-8 max-lg:flex-col max-sm:px-1 sm:w-2/3">
-        <div class="flex flex-1 flex-col">
-          <div class="text-[14vw] font-bold sm:my-2 sm:text-7xl">
-            <span class="text-purple-900">Contact</span>
-            {" Me"}
+      <main class="mx-auto my-8 flex w-full max-w-6xl gap-4 max-lg:flex-col max-sm:px-1 sm:w-1/2">
+        <div class="flex flex-1 flex-col gap-4">
+          <div>
+            <div class="text-[17vw] font-bold sm:my-2 sm:text-7xl">
+              <span class="text-purple-900">Contact</span>
+              {" Me"}
+            </div>
+            <p>Send me an Email :D.</p>
           </div>
-          <p>Send me an Email :D.</p>
           <span class="flex gap-2">
             <Button
               as="a"

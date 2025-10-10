@@ -21,12 +21,12 @@ const Home = () => {
             Computer Engineering & I.T. Student
           </span>
         </div>
-        <div class="flex flex-col items-end gap-4 px-1">
+        <div class="flex flex-col gap-4 px-1">
           <p class="text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
-            in natus explicabo nobis cumque voluptatem ullam esse nihil sequi
-            reprehenderit aliquid laborum fuga molestias inventore totam.
-            Voluptatum aperiam provident odit!
+            Hello 👋 I'm Quaid, a Computer Engineering & I.T. student.
+            Currently, I am focussing on my skills in Website Devlopment with
+            SolidJS and SolidStart to design and create properly reactivity and
+            performat web-application.
           </p>
           <div class="flex justify-end gap-2">
             <Button
