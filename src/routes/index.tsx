@@ -25,8 +25,8 @@ const Home = () => {
           <p class="text-justify">
             Hello 👋 I'm Quaid, a Computer Engineering & I.T. student.
             Currently, I am focussing on my skills in Website Devlopment with
-            SolidJS and SolidStart to design and create properly reactivity and
-            performat web-application.
+            SolidJS and SolidStart to design and create properly reactive and
+            performant web-application.
           </p>
           <div class="flex justify-end gap-2">
             <Button
