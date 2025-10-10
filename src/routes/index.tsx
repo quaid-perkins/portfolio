@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Title>Home</Title>
-      <main class="mx-auto my-8 flex w-full max-w-6xl flex-col gap-8 max-sm:px-1 sm:w-[50%]">
+      <main class="mx-auto my-8 flex w-full max-w-6xl flex-col gap-8 max-sm:px-1 sm:w-1/2">
         <div class="flex flex-col">
           <span class="inline-flex items-center gap-1 pl-1">
             <MapPin size={20} />
@@ -22,12 +22,12 @@ const Home = () => {
           </span>
         </div>
         <div class="flex flex-col items-end gap-4 px-1">
-          <span class="text-justify">
+          <p class="text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
             in natus explicabo nobis cumque voluptatem ullam esse nihil sequi
             reprehenderit aliquid laborum fuga molestias inventore totam.
             Voluptatum aperiam provident odit!
-          </span>
+          </p>
           <div class="flex justify-end gap-2">
             <Button
               as="a"
