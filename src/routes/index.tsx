@@ -24,9 +24,9 @@ const Home = () => {
         <div class="flex flex-col gap-4 px-1">
           <p class="text-justify">
             Hello 👋 I'm Quaid, a Computer Engineering & I.T. student.
-            Currently, I am focussing on my skills in Website Devlopment with
-            SolidJS and SolidStart to design and create properly reactive and
-            performant web-application.
+            Currently, I am focussing on my skills in Full-Stack Website
+            Devlopment with SolidJS and SolidStart to design and create properly
+            reactive and performant web-application.
           </p>
           <div class="flex justify-end gap-2">
             <Button
